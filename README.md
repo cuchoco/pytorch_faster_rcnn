@@ -9,11 +9,11 @@ cd coco/PythonAPI
 make
 
 
-```bash
+'''
 
 ├── data
 │   ├── VOCdevkit2007
 │   └── pretrained_model
 │       └── resnet101_caffe.pth
 
-```
+'''
