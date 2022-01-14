@@ -1,5 +1,9 @@
 mkdir data
+<br>
 cd data
-
-git clone https://github.com/pdollar/coco.git cd coco/PythonAPI
+<br>
+git clone https://github.com/pdollar/coco.git 
+<br>
+cd coco/PythonAPI
+<br>
 make
