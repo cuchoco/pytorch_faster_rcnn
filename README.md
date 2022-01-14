@@ -1,3 +1,7 @@
+# Faster RCNN Pytorch
+Removed C/C++ code and made it easier to study.
+Python 3.8.5 
+Ubuntu 20.04.1 LTS
 
 ## How to start
 
@@ -9,7 +13,8 @@ cd pytorch_faster_rcnn && mkdir data
 
 ## Prepare data & pretrained network
 
-* **PASCAL_VOC 07+12**: Please follow the instructions in [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models) to prepare VOC datasets. Actually, you can refer to any others. After downloading the data, creat softlinks in the folder data/.
+* **PASCAL_VOC 07+12**: Please follow the instructions in [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models) to prepare VOC datasets. 
+Actually, you can refer to any others. After downloading the data, creat softlinks in the folder data/.
 
 ```
 
