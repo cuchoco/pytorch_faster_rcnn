@@ -1,0 +1,5 @@
+mkdir data
+cd data
+
+git clone https://github.com/pdollar/coco.git cd coco/PythonAPI
+make
