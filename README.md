@@ -1,7 +1,7 @@
 # Faster RCNN Pytorch
-This repo is duplication of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch)
-C/C++ code are removed and easier to study.
-Python 3.8.5 
+This repo is duplication of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) <br>
+C/C++ code are removed and easier to study. <br>
+Python 3.8.5 <br>
 Ubuntu 20.04.1 LTS
 
 ## How to start
