@@ -1,12 +1,14 @@
-# Faster RCNN Pytorch
-This repo is duplication of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) <br>
-C/C++ code are removed and easier to study. <br>
-Python 3.8.5 <br>
+Faster RCNN Pytorch
+=======
+This repo is duplication of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch)    
+C/C++ code are removed and easier to study.   
+Python 3.8.5   
 Ubuntu 20.04.1 LTS
 
+***
 ## How to start
 
-```
+```bash
 git clone https://github.com/cuchoco/pytorch_faster_rcnn.git
 
 cd pytorch_faster_rcnn && mkdir data
@@ -14,18 +16,18 @@ cd pytorch_faster_rcnn && mkdir data
 
 ## Prepare data & pretrained network
 
-* **PASCAL_VOC 07+12**: Please follow the instructions in [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models) to prepare VOC datasets. <br>
+* **PASCAL_VOC 07+12**: Please follow the instructions in [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models) to prepare VOC datasets.  
 Actually, you can refer to any others. After downloading the data, creat softlinks in the folder data/.
 
 ```
-
 ├── data
 │   ├── VOCdevkit2007
 │   └── pretrained_model
 │       └── resnet101_caffe.pth
-
 ```
-We used two pretrained models in our experiments, VGG and ResNet101. You can download these two models from:
+
+We used two pretrained models in our experiments, VGG and ResNet101.   
+You can download these two models from:
 
 * VGG16: [Dropbox](https://www.dropbox.com/s/s3brpk0bdq60nyb/vgg16_caffe.pth?dl=0), [VT Server](https://filebox.ece.vt.edu/~jw2yang/faster-rcnn/pretrained-base-models/vgg16_caffe.pth)
 
@@ -35,7 +37,7 @@ Download them and put them into the data/pretrained_model/
 
 ## coco api make
 
-```
+```bash
 cd data
 git clone https://github.com/pdollar/coco.git 
 cd coco/PythonAPI
