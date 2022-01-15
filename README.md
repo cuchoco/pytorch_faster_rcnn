@@ -35,8 +35,9 @@ You can download these two models from:
 
 Download them and put them into the data/pretrained_model/
 
+---
 ## coco api make
-
+- linux
 ```bash
 cd data
 git clone https://github.com/pdollar/coco.git 
@@ -44,3 +45,22 @@ cd coco/PythonAPI
 make
 ```
 
+- window
+```bash
+cd data
+git clone https://github.com/philferriere/cocoapi
+python setup.py build_ext --inplace
+
+lib/model/utils/config.py
+
+374  # yaml_cfg = edict(yaml.load(f))
+375  yaml_cfg = edict(yaml.safe_load(f))
+```
+and replace lib/pycocotools with data/cocoapi/PythonAPI/pycocotools
+
+---
+## Train
+
+```bash
+python trainval_net.py 
+```
