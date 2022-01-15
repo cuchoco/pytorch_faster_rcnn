@@ -1,9 +1,9 @@
 Faster RCNN Pytorch
 =======
 This repo is duplication of [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch)    
-C/C++ code are removed and easier to study.   
+C/C++ code(nms, roi pool,align) are removed and easier to study.   
 Python 3.8.5   
-Ubuntu 20.04.1 LTS
+Ubuntu 20.04.1 LTS (and Window10)
 
 ***
 ## How to start
