@@ -12,6 +12,8 @@ Ubuntu 20.04.1 LTS (and Window10)
 git clone https://github.com/cuchoco/pytorch_faster_rcnn.git
 
 cd pytorch_faster_rcnn && mkdir data
+
+pip install -r requirements.txt
 ```
 
 ## Prepare data & pretrained network
