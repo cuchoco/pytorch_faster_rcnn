@@ -51,6 +51,7 @@ make
 ```bash
 cd data
 git clone https://github.com/philferriere/cocoapi
+cd cocoapi/PythonAPI/
 python setup.py build_ext --inplace
 
 lib/model/utils/config.py
