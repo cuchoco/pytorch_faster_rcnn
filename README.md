@@ -43,7 +43,7 @@ Download them and put them into the data/pretrained_model/
 ```bash
 cd data
 git clone https://github.com/pdollar/coco.git 
-cd coco/PythonAPI
+cd cocoapi/PythonAPI
 make
 ```
 
